@@ -1,9 +1,21 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Messages from './pages/Messages';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <div className="App">
-      Hello, website clone!
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/messages' element={<Messages />} />
+          <Route path='/profile' element={<Profile />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
