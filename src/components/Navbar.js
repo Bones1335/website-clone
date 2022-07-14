@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../images/Logo.svg';
 import { ReactComponent as Chat } from '../images/Chat.svg';
 import { ReactComponent as Profile } from '../images/Profile.svg';
+import { ReactComponent as Search } from '../images/Search.svg';
 
 export default function Navbar() {
   return (
@@ -10,6 +11,10 @@ export default function Navbar() {
       <Link to='/'>
         <div className='logo'>{<Logo />}</div>
       </Link>
+      <div className="searchBar">
+        <input type="text" placeHolder='search'></input>
+        <button type='submit'>{<Search />}</button>
+      </div>
       <ul>
         <Link to='/messages'>
           <li>{<Chat />}</li>
