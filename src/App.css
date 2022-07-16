@@ -82,7 +82,7 @@ li {
     border: 2px solid gray;
     padding: 10px;
     border-radius: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 850px;
     height: 75px;
 }
