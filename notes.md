@@ -16,6 +16,7 @@
 
 # Main Content (top to bottom)
     * Create Post
+        -input tag to create post with onClick event to turn it into a textarea tag for actaul posts
     * Filter Feed
     * Feed
         - Individual cards for each post

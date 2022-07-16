@@ -3,6 +3,8 @@ import CreatePost from '../components/home/CreatePost';
 
 export default function Home() {
   return (
-    <CreatePost />
+    <div className='main-content'>
+      <CreatePost />
+    </div>
   )
 }

@@ -68,3 +68,8 @@ li {
     align-items: center;
     color: white;
 }
+
+.create-post-container {
+    display: flex;
+    
+}
