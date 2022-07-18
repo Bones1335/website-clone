@@ -87,6 +87,10 @@ li {
     height: 75px;
 }
 
+img.profile-picture {
+    align-self: center;
+}
+
 .create-post {
     height: 50px;
     width: 30vw;
