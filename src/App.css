@@ -75,9 +75,12 @@ li {
     justify-content: center;
     align-items: center;
     margin-top: 45px;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.create-post-container {
+.create-post-container,
+.post-container {
     display: flex;
     border: 2px solid gray;
     padding: 10px;
@@ -105,4 +108,8 @@ img.profile-picture {
 button.create-image-button {
     border-style: none;
     background-color: white;
+}
+
+.post-container {
+    height: auto;
 }
