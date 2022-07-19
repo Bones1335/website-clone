@@ -87,7 +87,7 @@ li {
     border-radius: 10px;
     justify-content: space-around;
     width: 850px;
-    height: 75px;
+    height: auto;
 }
 
 img.profile-picture {
@@ -110,6 +110,31 @@ button.create-image-button {
     background-color: white;
 }
 
-.post-container {
-    height: auto;
+.secondary-post-container {
+    display: flex;
+    gap: 10px;
+}
+
+.like-dislike-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.post-subreddit,
+.post-information {
+    display: flex;
+    gap: 10px;
+}
+
+.post-information {
+    flex-direction: column;
+
+}
+
+.post-extras {
+    display: flex;
+    gap: 10px;
 }

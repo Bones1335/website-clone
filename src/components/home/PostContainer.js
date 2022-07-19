@@ -11,7 +11,7 @@ export default function PostContainer() {
             </div>
             <div className="post-information">
                 <div className="post-subreddit">
-                    <h4>r/goodtimes</h4>
+                    <h4>i/goodtimes</h4>
                     <p><em>posted by Username</em></p>
                 </div>
                 <div className="post-title">
