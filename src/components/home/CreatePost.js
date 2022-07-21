@@ -2,6 +2,7 @@ import React from 'react';
 import Image from '../../images/Image.png';
 
 export default function CreatePost() {
+
   return (
     <div className="create-post-container">
         <img className='profile-picture' src='#' alt='profile pic'></img>   

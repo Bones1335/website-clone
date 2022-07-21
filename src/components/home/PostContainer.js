@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function PostContainer() {
+  
   return (
     <div className="post-container">
         <div className="secondary-post-container">
