@@ -31,6 +31,7 @@ export default function Navbar() {
           </div>
         </Link>
       </ul>
+      <button className='login-button'>Login</button>
     </nav>
   )
 }
