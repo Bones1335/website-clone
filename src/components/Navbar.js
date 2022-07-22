@@ -33,6 +33,7 @@ export default function Navbar() {
         </Link>
       </ul>
       <button className='login-button' onClick={signInUser}>Login</button>
+      <button className='logout-button' onClick={signOutUser}>Logout</button>
     </nav>
   )
 }

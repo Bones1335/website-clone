@@ -26,8 +26,10 @@ initializeApp(firebaseAppConfig);
 export async function signInUser() {
   let provider = new GoogleAuthProvider();
   await signInWithPopup(getAuth(), provider);
+  console.log('signed in');
 }
 
 export function signOutUser() {
   signOut(getAuth());
+  console.log('signed out');
 }
