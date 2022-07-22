@@ -4,6 +4,7 @@ import Logo from '../images/Logo.png';
 import Search from '../images/Search.png';
 import { ReactComponent as Chat } from '../images/Chat.svg';
 import { ReactComponent as Profile } from '../images/Profile.svg';
+import { signInUser, signOutUser } from '../services/firebase-config';
 
 export default function Navbar() {
   return (
@@ -31,7 +32,7 @@ export default function Navbar() {
           </div>
         </Link>
       </ul>
-      <button className='login-button'>Login</button>
+      <button className='login-button' onClick={signInUser}>Login</button>
     </nav>
   )
 }
